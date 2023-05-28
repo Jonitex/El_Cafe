@@ -44,4 +44,40 @@ footer {
 	width: 20%;
 }
 
+#resumen{
+	display: none;
+}
+
+
+@media (min-width: 600px) {
+	#resumen{
+	display: block;
+	}
+}
+
+@media (max-width: 600px) {
+	#contenido{
+	font-size: 16px;
+	color: red;
+	}
+	header{
+		color: red;
+	}
+	#resumen , h1, p{
+		color: red;
+	}
+}
+@media (min-width:601px) and (max-width:900px) {
+	#contenido{
+		font-size: 14px;
+		color: blue;
+		}
+		header{
+			color: blue;
+		}
+		#resumen , h1, p{
+			color: blue;
+		}
+}
+
 
